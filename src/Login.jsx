@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import Aside from "./Aside.jsx"
-import validator from 'validator'
+import Aside from "./Aside.jsx";
+import validator from 'validator';
+import {NavLink} from "react-router-dom"
 import "./login.css"
 const Login = () => {
     const [emailmessage, setEmailMessage] = useState("")
@@ -37,6 +38,7 @@ const Login = () => {
 
                         <button type="submit" className="registerFormSubmit">Submit</button>
                     </form>
+                    <NavLink to="/register" className="RedirectingLink">Goto Register</NavLink>
                 </div>
             </div>
         </>

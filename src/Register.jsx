@@ -1,4 +1,5 @@
 import React,{useState} from "react";
+import { NavLink } from "react-router-dom";
 import "./register.css";
 import Aside from "./Aside.jsx"
 import validator from 'validator'
@@ -58,6 +59,7 @@ const Register=()=>{
                         
                         <button type="submit" className="registerFormSubmit">Submit</button>
                     </form>
+                    <NavLink to="/login" className="RedirectingLink">Goto Login</NavLink>
                 </div>
             </div>
         </>
