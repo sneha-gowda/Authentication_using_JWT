@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.RedirectingLink {
+  text-decoration: none;
+  color: green;
+  width: 3%;
+  font-size: 1.5em;
+  margin: auto;
+}
